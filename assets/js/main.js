@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu-btn').forEach(btn=>btn.addEventListener('click',()=>document.querySelector('.nav-links').classList.toggle('open')));
